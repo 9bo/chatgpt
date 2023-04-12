@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://www.1122.ga/d/%E6%95%99%E7%A8%8B/%E6%BA%90/ico.ico',
+      avatar: '/ico.ico',
       name: 'Robart',
       description: 'Star on <a href="https://www.bing.com" class="text-blue-500" target="_blank" >Bing</a>',
     },
